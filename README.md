@@ -1,7 +1,7 @@
 # pmvnr
 
 For use in maven:
-
+```xml
 ...
 	<repositories>
 		<repository>
@@ -10,20 +10,23 @@ For use in maven:
 		</repository>
 	</repositories>
 </project>
-
-
-----------------------------------------
-	<dependency>
-		<groupId>org.danort.compiledfromsource</groupId> 
-		<artifactId>GoogleDiffMatchPatch</artifactId>
-		<version>1.0.0</version>
-	</dependency>
-
+```
 
 ----------------------------------------
+```xml
+<dependency>
+	<groupId>org.danort.compiledfromsource</groupId> 
+	<artifactId>GoogleDiffMatchPatch</artifactId>
+	<version>1.0.0</version>
+</dependency>
+```
 
-	<dependency>
-		<groupId>org.danort.compiledfromsource</groupId>
-		<artifactId>PdfTkJava</artifactId>
-		<version>3.1.3</version>
-	</dependency>
+___
+
+```xml
+<dependency>
+	<groupId>org.danort.compiledfromsource</groupId>
+	<artifactId>PdfTkJava</artifactId>
+	<version>3.1.3</version>
+</dependency>
+```
